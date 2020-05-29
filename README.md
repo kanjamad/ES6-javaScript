@@ -9,3 +9,6 @@ Work with collection of data easily
 5. every
 6. some
 7. reduce
+
+
+
