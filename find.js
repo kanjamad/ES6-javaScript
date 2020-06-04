@@ -89,3 +89,18 @@ const posts = [
 const postId = getIdFromURL();
 
 posts.find((post) => post.id === postId);
+
+// Example: Find the user in the users's array who is an admin.
+var users = [ { id: 1, admin: false }, { id: 2, admin: false }, { id: 3, admin: true } ];
+
+var admin = users.find((user) => user.admin);
+
+admin;
+
+//  Example: Find the account with a balance of 12 and assign it to the variable 'account'
+
+var accounts = [ { balance: -10 }, { balance: 12 }, { balance: 0 } ];
+
+var account = accounts.find((account) => account.balance === 12);
+
+account;
